@@ -32,7 +32,7 @@ app.use(bodyParser.json());
 // Request Handling
 // GET Home page (Default)
 app.get('/',function(req,res){
-    res.render('home');
+    res.render('home', {style: "../home.css"});
 });
 
 app.get('/info',function(req,res){
