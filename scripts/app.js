@@ -20,7 +20,8 @@ app.set('view engine', 'handlebars');
 app.set('port', PORT);
 
 // Middleware function to use static files (for css styling)
-app.use(express.static("public"));
+app.use(express.static("css"));
+app.use(express.static("views"));
 
 // Middleware functions to support POST requests
 var bodyParser = require('body-parser');
