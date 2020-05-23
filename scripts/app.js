@@ -20,6 +20,7 @@ app.set('view engine', 'handlebars');
 app.set('port', PORT);
 
 // Middleware function to use static files (for css styling)
+app.use(express.static("assets"));
 app.use(express.static("css"));
 app.use(express.static("views"));
 
@@ -34,17 +35,29 @@ app.get('/',function(req,res){
     res.render('home');
 });
 
+app.get('/info',function(req,res){
+    res.render('info');
+});
+
+app.get('/about',function(req,res){
+    res.render('about');
+});
+
+app.get('/contact',function(req,res){
+    res.render('contact');
+});
+
 // Error Handling
 app.use(function(req,res){
     res.status(404);
-    res.render('404');
+    res.render('404', {layout: 'error.handlebars'});
 });
 
 app.use(function(err, req, res, next){
     console.error(err.stack);
     res.type('plain/text');
     res.status(500);
-    res.render('500');
+    res.render('500', {layout: 'error.handlebars'});
 });
 
 // Start Server
