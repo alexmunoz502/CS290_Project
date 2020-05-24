@@ -1,51 +1,6 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #F8F8F8;
-}
-
-body p {
-    margin: auto;
-    font-size: 16px;
-    color: #000100;
-}
-
-.meet-otis {
-    padding-left: 250px;
-    padding-top: 50px;
-    padding-right: 200px;
-    margin: auto;
-}
-.meet-otis h2 {
-    margin: auto;
-    font-size: 80px;
-    color: #2D3142;
-}
-
-.meet-otis h3 {
-    margin: auto;
-    font-size: 20px;
-    font-style: bold;
-    color: #999A9A;
-}
-
-#meet-otis-pic {
-    padding-right: 25px;
-    float: left;
-}
-
-hr {
-    color: #CCCDCD;
-    clear: both;
-    align-self: center;
-}
-
-p {
-    padding-top: 10px;
-}
-
-.placeholder-carousel {
-    width: 90%;
-    padding-top: 100px;
-    background-color: grey;
+.hero-image{
+    background-image: url("../images/home/hero_image.jpg");
+    position: relative;
+    height: 100vh;;
+    width: 100%;
 }
