@@ -3,11 +3,15 @@ html {
 }
 
 #title {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #title element {
     color: #B76D68;
+}
+
+#menu-item {
+    font-family: 'Pontano Sans', sans-serif; 
 }
 
 #content h2 {
@@ -27,6 +31,15 @@ html {
 #content p {
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: left;
+    color: #000100;
+    font-size: 0.75rem;
+}
+
+#content li {
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: 'Pontano Sans', sans-serif;
     text-align: left;
     color: #000100;

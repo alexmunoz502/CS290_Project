@@ -41,7 +41,7 @@ app.get('/info',function(req,res){
 });
 
 app.get('/about',function(req,res){
-    res.render('about', {style: "../home.css", active: {"about": true}});
+    res.render('about', {style: "../about.css", active: {"about": true}});
 });
 
 app.get('/contact',function(req,res){

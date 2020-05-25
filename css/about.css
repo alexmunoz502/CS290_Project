@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #4F5D75;
+}
+
+#content {
+    border-radius: 0.25rem;
+    height: 50rem;
+    width: 90%;
+    margin-top: .75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+#content hr {
+    width: 80%;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.card-left {
+    margin-left: 4%;
+}
+
+.download-btn {
+    margin-left: 10%;
+}
