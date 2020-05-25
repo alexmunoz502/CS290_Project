@@ -13,38 +13,20 @@ body {
 
 #content {
     border-radius: 0.25rem;
+    height: 26.5rem;
     width: 35%;
-    margin-top: 2.5%;
+    margin-top: .75%;
     margin-left: 50%;
     margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-#content h2 {
-    text-align: center;
-    font-family: 'Chau Philomene One', sans-serif;
-    color: #2D3142;
-    font-size: 2.5rem;
-}
-
-#content h3 {
-    text-align: center;
-    font-family: 'Pontano Sans', sans-serif; 
-    color: #A3A4A4;
-    font-size: 1rem;
-}
-
-#content p {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Pontano Sans', sans-serif;
-    text-align: left;
-    color: #000100;
-    font-size: 0.75rem;
-}
-
 #content hr {
     width: 80%;
+}
+
+#carousel-title p {
+    text-align: center;
 }

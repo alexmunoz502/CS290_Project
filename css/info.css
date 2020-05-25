@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #4F5D75;
+}
+
+#content {
+    border-radius: 0.25rem;
+    height: 26.5rem;
+    width: 90%;
+    margin-top: .75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+#content hr {
+    width: 80%;
+}
+
+#myTab {
+    margin-top: -0.75rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#myTabContent {
+    padding: 1px 0;
+    background-color: #E6E6E6;
+    border-radius: 0.25rem;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#myTabContent h4 {
+    margin: auto;
+    color: #B76D68;
+    font-weight: bold;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    margin-bottom: 2.5%;
+}
+
+#myTabContent p {
+    margin: auto !important;
+    margin-left: 5% !important;
+}
+
+#history p {
+    margin: auto;
+    margin-left: 5%;
+}
+
+.v-rule {
+    margin-top: 4.85%;
+    height: 9rem;;
+    border-right: thin solid #8A8A8A;
+}
+
+#reference {
+    margin-left: 53.5%;
+}
+
+#reference a {
+    color: #4F5D75;
+}
+
+#reference p {
+    color: #8A8A8A;
+}
+
+.pink {
+    background-color: pink;
+    border: thin solid purple;
+}

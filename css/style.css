@@ -10,6 +10,39 @@ html {
     color: #B76D68;
 }
 
+#content h2 {
+    text-align: center;
+    font-family: 'Chau Philomene One', sans-serif;
+    color: #2D3142;
+    font-size: 2.5rem;
+}
+
+#content h3 {
+    text-align: center;
+    font-family: 'Pontano Sans', sans-serif; 
+    color: #A3A4A4;
+    font-size: 1rem;
+}
+
+#content p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: left;
+    color: #000100;
+    font-size: 0.75rem;
+}
+
+#content h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: left;
+    color: #000100;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 
 /*
 

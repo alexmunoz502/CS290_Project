@@ -23,6 +23,7 @@ app.set('port', PORT);
 app.use(express.static("assets"));
 app.use(express.static("css"));
 app.use(express.static("views"));
+app.use(express.static("scripts"));
 
 // Middleware functions to support POST requests
 var bodyParser = require('body-parser');
@@ -36,7 +37,7 @@ app.get('/',function(req,res){
 });
 
 app.get('/info',function(req,res){
-    res.render('info', {style: "../home.css", active: {"info": true}});
+    res.render('info', {style: "../info.css", active: {"info": true}});
 });
 
 app.get('/about',function(req,res){
