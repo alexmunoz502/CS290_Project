@@ -46,6 +46,11 @@ html {
     font-size: 0.75rem;
 }
 
+#content label {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 0.85rem;
+}
+
 #content h4 {
     margin-left: 10%;
     margin-right: 10%;

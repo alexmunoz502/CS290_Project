@@ -45,7 +45,7 @@ app.get('/about',function(req,res){
 });
 
 app.get('/contact',function(req,res){
-    res.render('contact', {style: "../home.css", active: {"contact": true}});
+    res.render('contact', {style: "../contact.css", active: {"contact": true}});
 });
 
 // Error Handling

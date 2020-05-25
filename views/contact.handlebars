@@ -1,1 +1,41 @@
-<h1>Contact Page</h1>
+<div id="content">
+    <h2>CONTACT</h2>
+    <h3>ALL QUESTIONS AND COMMENTS ARE WELCOME!</h3>
+    <hr>
+    <div class="container contact-info">
+        <div class="row">
+            <div class="col-sm">
+                <h4>Mailing Address</h4>
+                <p>Alex Mu&ntilde;oz</p>
+                <p>604 Whistling Swan Dr.</p>
+                <p>Greensboro, NC 27455</p>
+            </div>
+            <div class="v-rule"></div>
+            <div class="col-sm">
+                <h4>Press Inquiries:</h4>
+                <p>Phone: (555) 404-4251</p>
+                <p>Email: munozale@oregonstate.edu</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="contact-form">
+        <h4>Have a question?</h4>
+        <p>Please fill out the form below and I'll get back to you as soon as possible.</p>
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+            <div class="form-group">
+                <label for="email">EMAIL ADDRESS</label>
+                <input name="email" type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="subject">SUBJECT</label>
+                <input name="subject" type="text" class="form-control" id="subject">
+            </div>
+            <div class="form-group" id="message-container">
+                <label for="message">MESSAGE</label>
+                <textarea name="message" class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

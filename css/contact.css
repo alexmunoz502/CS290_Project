@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #4F5D75;
+}
+
+#content {
+    border-radius: 0.25rem;
+    height: 43.5rem;
+    width: 90%;
+    margin-top: .75%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+#content hr {
+    width: 80%;
+}
+
+.contact-info {
+    width: 60%;
+}
+
+.contact-info p {
+    margin: auto;
+}
+
+.v-rule {
+    margin-top: 1%;
+    height: 5rem;;
+    border-right: thin solid #8A8A8A;
+}
+
+#contact-form {
+    margin-left: 25%;
+    width: 50%;
+}
+
+#contact-form h4 {
+    margin: auto;
+}
+
+#contact-form p {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+#contact-form input {
+    height: 2rem;
+}
+
+#submit-btn {
+    margin-left: 84%;
+}
