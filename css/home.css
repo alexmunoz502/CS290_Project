@@ -1,6 +1,50 @@
-.hero-image{
-    background-image: url("../images/home/hero_image.jpg");
-    position: relative;
-    height: 100vh;;
-    width: 100%;
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/home/hero_image.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;  
+    background-size: cover;
+}
+
+#content {
+    border-radius: 0.25rem;
+    width: 35%;
+    margin-top: 2.5%;
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+#content h2 {
+    text-align: center;
+    font-family: 'Chau Philomene One', sans-serif;
+    color: #2D3142;
+    font-size: 2.5rem;
+}
+
+#content h3 {
+    text-align: center;
+    font-family: 'Pontano Sans', sans-serif; 
+    color: #A3A4A4;
+    font-size: 1rem;
+}
+
+#content p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: left;
+    color: #000100;
+    font-size: 0.75rem;
+}
+
+#content hr {
+    width: 80%;
 }

@@ -4,6 +4,8 @@
         <! Bootstrap>
         <link rel="stylesheet" type="text/css" href="../bootstrap.css" >
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <! Fonts>
+        <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&family=Open+Sans&family=Pontano+Sans&display=swap" rel="stylesheet"> 
         <! My Stylesheets>
         <link rel="stylesheet" type="text/css" href="../style.css">
         <link rel="stylesheet" type="text/css" href="{{style}}">
@@ -29,31 +31,20 @@
         <hr>
         -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">otis<element class="title-the">the</element>aussie</a>
+            <a class="navbar-brand" id="title" href="/">otis<element>the</element>aussie</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="/info">Info</a>
-                <a class="nav-item nav-link" href="/about">About</a>
-                <a class="nav-item nav-link" href="/contact">Contact</a>
+                <a class="nav-item nav-link {{#if active.home}}active{{/if}}" href="/">Home</a>
+                <a class="nav-item nav-link {{#if active.info}}active{{/if}}" href="/info">Info</a>
+                <a class="nav-item nav-link {{#if active.about}}active{{/if}}" href="/about">About</a>
+                <a class="nav-item nav-link {{#if active.contact}}active{{/if}}" href="/contact">Contact</a>
                 </div>
             </div>
         </nav>
         {{{body}}}
-        <div class="site-footer">
-            <p>otis<a>the</a>aussie</p>
-            <div class="site-footer-items">
-                <a>home</a>
-                <a>info</a>
-                <a>about</a>
-                <a>contact</a>
-            </div>
-            <p id="signature">Site by Alex Mu&ntilde;oz</p>
-        </div> 
-
         <! Bootstrap boilerplate>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

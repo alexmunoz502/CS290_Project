@@ -1,4 +1,12 @@
-.title-the {
+html {
+    height: 100%;
+}
+
+#title {
+    font-family: 'Open Sans', sans-serif;;
+}
+
+#title element {
     color: #B76D68;
 }
 

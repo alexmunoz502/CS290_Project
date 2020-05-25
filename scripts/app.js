@@ -32,19 +32,19 @@ app.use(bodyParser.json());
 // Request Handling
 // GET Home page (Default)
 app.get('/',function(req,res){
-    res.render('home', {style: "../home.css"});
+    res.render('home', {style: "../home.css", active: {"home": true}});
 });
 
 app.get('/info',function(req,res){
-    res.render('info');
+    res.render('info', {style: "../home.css", active: {"info": true}});
 });
 
 app.get('/about',function(req,res){
-    res.render('about');
+    res.render('about', {style: "../home.css", active: {"about": true}});
 });
 
 app.get('/contact',function(req,res){
-    res.render('contact');
+    res.render('contact', {style: "../home.css", active: {"contact": true}});
 });
 
 // Error Handling
