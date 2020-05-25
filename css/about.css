@@ -8,7 +8,7 @@ body {
 
 #content {
     border-radius: 0.25rem;
-    height: 50rem;
+    height: 60rem;
     width: 90%;
     margin-top: .75%;
     margin-left: 5%;
@@ -32,4 +32,33 @@ body {
 
 .download-btn {
     margin-left: 10%;
+}
+
+#banner-image {
+    margin-left: 10%;
+    height: 12.35rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.images {
+    margin-left: 20%;
+    display: inline-block;
+}
+
+.images img {
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    height: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 20%;
+}
+
+.download-image {
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    height: 18%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
